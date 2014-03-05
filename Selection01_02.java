@@ -1,8 +1,8 @@
 import java.util.Scanner;
 
 public class Selection_02 {
-  public static void main(String[] args) {
-  Scanner scan = new Scanner(System.in);
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
 		
 		String set1 = 
 				" 1 3 5 7\n" + 
@@ -35,6 +35,7 @@ public class Selection_02 {
 				"28 29 30 31";
 		
 		int day = 0;
+		
 		System.out.print("Is your birthday in Set1?\n");
 		System.out.print(set1);
 		System.out.print("\nEnter 0 for No and 1 for Yes: ");
@@ -82,5 +83,4 @@ public class Selection_02 {
 		
 		System.out.println("Your birthday is " + day + "!");
 	}
-
 }
