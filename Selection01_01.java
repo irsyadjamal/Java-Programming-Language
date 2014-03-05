@@ -6,7 +6,7 @@ public class Selection01_01 {
 		int number2 = (int) (System.currentTimeMillis() * 7 % 10);
 		System.out.print("What is " + number1 + " + " + number2 + "? ");
 		int answer = scan.nextInt();
-		System.out.println(number1 + " + " + number2 + " = " + answer + " is "
-				+ (number1+number2==answer));
+		System.out.println(number1 + " + " + number2 + " = " + answer
+				+ " is " + (number1+number2==answer));
 	}
 }
